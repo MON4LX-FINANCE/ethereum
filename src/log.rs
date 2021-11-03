@@ -1,8 +1,9 @@
 use crate::Bytes;
 use alloc::vec::Vec;
+use scale_info::TypeInfo;
 use ethereum_types::{H160, H256};
 use rlp_derive::{RlpDecodable, RlpEncodable};
-use scale_info::TypeInfo;
+
 
 #[derive(Clone, Debug, PartialEq, Eq, RlpEncodable, RlpDecodable)]
 #[cfg_attr(
