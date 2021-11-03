@@ -33,7 +33,7 @@ hex-literal = "0.3"
 
 [features]
 default = ["std"]
-with-codec = ["codec", "scale-info", "ethereum-types/codec"]
+with-codec = ["codec", "ethereum-types/codec"]
 with-serde = ["serde", "ethereum-types/serialize"]
 std = [
 	"ethereum-types/std",
