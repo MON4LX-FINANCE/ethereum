@@ -1,5 +1,4 @@
 use crate::Bytes;
-use scale_info::TypeInfo;
 use alloc::vec::Vec;
 use scale_info::TypeInfo;
 use ethereum_types::{H160, H256};
