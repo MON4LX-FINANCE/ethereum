@@ -8,7 +8,7 @@ use rlp_derive::{RlpDecodable, RlpEncodable};
 #[derive(Clone, Debug, PartialEq, Eq, RlpEncodable, RlpDecodable)]
 #[cfg_attr(
 	feature = "with-codec",
-	derive(codec::Encode, codec::Decode, scale_info::TypeInfo)
+	derive(codec::Encode, codec::Decode, TypeInfo)
 )]
 #[cfg_attr(feature = "with-serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct Log {
